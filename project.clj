@@ -7,6 +7,10 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.946"]]
 
+  :source-paths ["src/cljc"]
+
+  :test-paths ["test/cljc"]
+
   :profiles {:dev {:plugins [[lein-cloverage "1.0.10"]
                              [lein-kibit "0.1.6"]
                              [jonase/eastwood "0.2.5"]]}
@@ -15,7 +19,7 @@
                     :doo {:build "test"}
                     :cljsbuild {:builds
                                 {:test {:source-paths ["src" "test"]
-                                        :compiler {:main tol.runner
+                                        :compiler {:main ccn.runner
                                                    :output-to "target/test/core.js"
                                                    :optimizations :none
                                                    :source-map true
