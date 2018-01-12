@@ -27,6 +27,8 @@
                                                    ;; workaround for running lein doo with latest CLJS, see
                                                    ;; https://github.com/bensu/doo/pull/141}}}}
                                                    :process-shim false}}}}}}
+
+  :eastwood {:exclude-namespaces [ccn.runner]}
   :aliases {"cljs-tests" ["with-profile" "cljs" "doo" "phantom" "once"]
             "cljs-auto" ["with-profile" "cljs" "cljsbuild" "auto"]
             "cljs-once" ["with-profile" "cljs" "cljsbuild" "once"]})
