@@ -1,4 +1,4 @@
-(defproject ccn "0.1.0"
+(defproject ccn "0.1.1"
   :description "A small library for CSS class composition"
   :url "https://github.com/druids/ccn"
   :license {:name "MIT License"

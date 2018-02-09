@@ -12,7 +12,7 @@ Leiningen/Boot
 --------------
 
 ```clojure
-[ccn "0.1.0"]
+[ccn "0.1.1"]
 ```
 
 Documentation
